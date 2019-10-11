@@ -60,7 +60,7 @@ def direct_character(p1, p2):
         PlayerMotion = 0
 
 
-def draw_curve_11_points(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10):
+def draw_curve_Random(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10):
 
     # draw p1 to p2
     draw_Curve(p10, p1, p2, p3, 0, 100)
@@ -101,7 +101,7 @@ frame = 0
 PlayerMotion = 1
 
 while running:
-    draw_curve_11_points(point[0], point[1], point[2], point[3], point[4], point[5], point[6], point[7], point[8], point[9])
+    draw_curve_Random(point[0], point[1], point[2], point[3], point[4], point[5], point[6], point[7], point[8], point[9])
     handle_events()
 
 close_canvas()
