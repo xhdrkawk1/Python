@@ -64,6 +64,32 @@ def draw_curve_11_points(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10):
 
     # draw p1 to p2
     draw_Curve(p10, p1, p2, p3, 0, 100)
+    # draw p2 to p3
+    draw_Curve(p1, p2, p3, p4, 0, 100)
+
+    # draw p3 to p4
+    draw_Curve(p2, p3, p4, p5, 0, 100)
+
+    # draw p4 to p5
+    draw_Curve(p3, p4, p5, p6, 0, 100)
+
+    # draw p5 to p6
+    draw_Curve(p4, p5, p6, p7, 0, 100)
+
+    # draw p6 to p7
+    draw_Curve(p5, p6, p7, p8, 0, 100)
+
+    # draw p7 to p8
+    draw_Curve(p6, p7, p8, p9, 0, 100)
+
+    # draw p8 to p9
+    draw_Curve(p7, p8, p9, p10, 0, 100)
+
+    # draw p9 to p10
+    draw_Curve(p8, p9, p10, p1, 0, 100)
+
+    # draw p10 to p11
+    draw_Curve(p9, p10, p1, p2, 0, 100)
 
 
 open_canvas(KPU_WIDTH, KPU_HEIGHT)
