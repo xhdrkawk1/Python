@@ -79,7 +79,27 @@ running = True
 
 
 while running:
+    handle_events()
 
+    for boy in team:
+        boy.update_object()
+
+    for ball in balls:
+        ball.update_object()
+
+    clear_canvas()
+
+    grass.draw_object()
+
+    for boy in team:
+        boy.draw_object()
+
+    for ball in balls:
+        ball.draw_object()
+
+    update_canvas()
+
+    delay(0.05)
 
 
 # finalization code
