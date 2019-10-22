@@ -21,7 +21,7 @@ class Boy:
 
     def update_object(self):
         self.frame = (self.frame + 1) % 8
-        self.x += 5
+        self.x += 4
 
     def draw_object(self):
         self.image.clip_draw(self.frame*100, 0, 100, 100, self.x, self.y)
