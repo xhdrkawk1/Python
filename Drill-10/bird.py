@@ -51,11 +51,11 @@ class Bird:
             self.dir = 1
 
         self.framex = int(self.frame) % 5
-        if int(self.frame) % 10 == 0:
+        if int(self.frame) % 12 == 0:
             self.framey = 2
-        if int(self.frame) % 10 == 5:
+        if int(self.frame) % 12 == 5:
             self.framey = 1
-        if int(self.frame) % 10 == 10:
+        if int(self.frame) % 12 == 10:
             self.framey = 0
         #print('frame : %d' % (self.frame % 14))
        # print('framex : %d' % (self.framex))
